@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    
+</head>
+
+<body style="background-color: #e1d4c2;">
+    <div class="hero">
+  <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+
+    <a class="navbar-brand" href="#">My Portfolio</a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+</div>
+
+
+    <div class="content">
+        <h2>Hello, my name is</h2>
+        <h1>David Tehillah</h1>
+        <h3>I'm a Software Engineer</h3>
+    </div>
+
+    <section id="about" class="about">
+        <div class="main">
+            <div>
+                <img src="Media/photo.jpg" alt="a photo of me" width="250px" class="photo">
+            </div>
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h4>Developer & Designer</h4>
+                <p>My name is David Tehillah Esin, <br>I'm a 100lvl student of Lincoln University
+                    studying software Engineering. <br>Studying software engineering hasn't been easy, it has put me on
+                    a rollercoaster of emotions,<br> but gradually i'm starting to get the hang of it.</p>
+                <button type="button" class="btn btn-outline-dark">Let's Talk</button>
+            </div>
+        </div>
+    </section>
+    <!-- <section id="services" class="service">
+        <div class="ser" style="display: flex;  justify-content: center;">
+            <h2 style="align-items: center;">My Services</h2>
+        </div>
+        <div class="box align-center" style="background-color: #e1d4c2;">
+            <div class="card">
+                <h4>Web Development</h4>
+                <div>
+                    <p>Responsive and visually appealing website designs that captivates visitors and reflect your brand
+                    </p>
+                    <button type="button">Read More</button>
+                </div>
+            </div>
+            <div class="card">
+                <h4>UX/UI Design</h4>
+                <div>
+                    <p>Designs that combine aesthetic and functionality for exceptional digital experience</p>
+                    <button type="" class="btn btn-outline-blue">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+   <section class="container " id="services">
+        <div class="d-flex justify-content-center mb-4">
+            <h1>Services</h1>
+        </div>
+
+        <div class="">
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-4">
+                    <div class="border shadow p-4 rounded h-100">
+                        <h3>Web Development</h3>
+                        <p>
+                            Designs that combine aesthetic and functionality for exceptional digital experience
+                        </p>
+                        <button class="btn btn-outline-dark">Read more</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="border shadow p-4 rounded h-100">
+                        <h3>UX/UI Design</h3>
+                        <p>
+                            Responsive and visually appealing website designs that captivates visitors and reflect your brand
+                        </p>
+                        <button class="btn btn-outline-dark">Read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <section id="projects">
+        <div class="d-flex justify-content-center mb-4">
+            <h1 >My Projects</h1>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                
+               <div class="apartment">
+                <img src="Media/Apartment.jpg" width="300px"><br>
+                <a
+                    href="https://www.figma.com/proto/4rfAxThd9VmaDZzUqQoVdo/Untitled?node-id=1-2&t=w59GHTjzczuUsABX-1">View</a>
+            </div><br>
+            
+            </div><br>
+            <div class="col-md-4">
+                 <div class="couch">
+                <img src="Media/Couch.jpg" width="300px"><br>
+                <a
+                    href="https://www.figma.com/proto/1RWjmSPFwqqXFdpucPSmUC/David-Tehillah-Esin?node-id=0-1&t=bSWLPkhRNBrJr0J1-1">View</a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="container my-5">
+        <div class="text-center mb-4">
+            <h1>Contact Me</h1>
+            <p>Fill out the form below and I’ll get back to you as soon as possible.</p>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+            <form>
+                <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject" placeholder="Enter the subject" required>
+                </div>
+
+                <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+
+                <div class="text-center">
+                <button type="submit" class="btn btn-outline-dark px-4">Send Message</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- <section id="projects">
+        
+        <div class="cards" style="display: flex; justify-content: space-between;">
+            <div class="apartment">
+                <img src="Media/Apartment.jpg" width="300px"><br>
+                <a
+                    href="https://www.figma.com/proto/4rfAxThd9VmaDZzUqQoVdo/Untitled?node-id=1-2&t=w59GHTjzczuUsABX-1">View</a>
+            </div><br>
+
+            <div class="couch">
+                <img src="Media/Couch.jpg" width="270px"><br>
+                <a
+                    href="https://www.figma.com/proto/1RWjmSPFwqqXFdpucPSmUC/David-Tehillah-Esin?node-id=0-1&t=bSWLPkhRNBrJr0J1-1">View</a>
+            </div>
+        </div>
+    </section> -->
+
+</html>

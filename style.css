@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #e1d4c2;
+}
+nav {
+  padding-top: 20px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: black;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.content{
+    
+    margin-top: 10%;
+    margin-left: 10%;
+}
+h1{
+    font-size: 50px;
+    color: white;
+}
+h3{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 7px;
+}
+.photo{
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+}
+.about-text h2{
+    color: white;
+    font-size: 50px;
+}
+.about-text h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.about-text p{
+    letter-spacing: 1px;
+    font-size: 17px;
+    line-height: 20px;
+}
+button{
+    background-color: white;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 7px;
+}
+button:hover{
+    background-color:transparent;
+}
+.service{
+    width: 100%;
+    padding: 100px 0px;
+}
+.ser{
+    font-size: 30px;
+    display: block;
+    margin: auto;
+}
+.ser h2{
+    color: white;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    height: 200px;
+    width: 300px;
+    background-color: transparent;
+    padding: 10px 10px;
+    padding-bottom: 1px;
+    margin: 15px;
+    margin-left: 10%;
+   box-shadow: 0px 2px 4px black;
+    text-align: center;
+    border-radius: 7px;
+}
+.cards{
+    display: flex;
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    gap: 10%;
+    display: block;
+    flex-wrap: wrap;
+}
+.apartment{
+    background-color: transparent;
+     box-shadow: 0px 2px 4px black;
+      border-radius: 7px;
+      padding-top: 20%;
+      padding-bottom: 10%;
+      padding-left: 10%;
+      
+}
+.apartment a{
+    text-decoration: none;
+    color: black;
+}
+.couch{
+   background-color: transparent;
+     box-shadow: 0px 2px 4px black;
+      border-radius: 7px;
+      padding-top: 20%;
+      padding-bottom: 10%;
+      padding-left: 10%;  
+}
+.couch a{
+    text-decoration: none;
+    color: black;
+}
+@media (max-width:600px) {
+    .ser{
+        flex-direction: column;
+    }
+    .main{
+      flex-direction: column;  
+    }
+}
+
+
+.align-center{
+    justify-content: center;
+}
